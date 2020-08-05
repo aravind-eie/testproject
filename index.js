@@ -12,9 +12,12 @@ router.get('/',function(req, res){
   res.sendFile(path + 'index.html');
 });
   
-router.get('/home',function(req, res){
+router.get('/dashboard',function(req, res){
   res.sendFile(path + 'dashboard.html');});
   
+  router.get('/home',function(req, res){
+    res.sendFile(path + 'home.html');});
+
 router.get('/about',function(req, res){
   res.sendFile(path + 'about.html');
 });

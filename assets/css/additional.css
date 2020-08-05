@@ -1,0 +1,86 @@
+.adcard.adcard-chart .gmnoprint,
+.adcard.adcard-chart .gm-style-cc {
+  display: none !important;
+}
+@media (max-width: 767.98px) {
+    .adcard.adcard-chart .adcard-header .btn-group-toggle .tim-icons {
+      font-size: .875rem;
+      top: -1px;
+    }
+  }
+  .adcard-chart {
+    overflow: hidden;
+  }
+  
+  .adcard-chart .adcard-header .adcard-title i {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+  }
+  
+  .adcard-chart .adcard-header .adcard-category {
+    margin-bottom: 5px;
+  }
+  
+  .adcard-chart .adcard-body {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .adcard-chart .adcard-body .tab-space {
+    padding: 0;
+  }
+  
+  .adcard-chart .table {
+    margin-bottom: 0;
+  }
+  
+  .adcard-chart .table td {
+    border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .adcard-chart .adcard-progress {
+    margin-top: 30px;
+    padding: 0 10px;
+  }
+  
+  .adcard-chart .chart-area {
+    height: 220px;
+    width: 100%;
+  }
+  
+  .adcard-chart .adcard-footer {
+    margin-top: 15px;
+  }
+  
+  .adcard-chart .adcard-footer .stats {
+    color: #9A9A9A;
+  }
+  
+  .adcard-chart .dropdown {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .adcard-chart .dropdown .btn {
+    margin: 0;
+  }
+  
+  .adcard-chart.adcard-chart-pie .chart-area {
+    padding: 10px 0 25px;
+    height: auto;
+  }
+  
+  .adcard-chart.adcard-chart-pie .adcard-title {
+    margin-bottom: 10px;
+  }
+  
+  .adcard-chart.adcard-chart-pie .adcard-title i {
+    font-size: 1rem;
+  }
+
+
+  
+  
