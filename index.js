@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var router = express.Router();
-var port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
   
 var path = __dirname + '/views/';
   
